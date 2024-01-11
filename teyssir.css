@@ -1,0 +1,195 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+body {
+  margin: 0;
+}
+.teyssir {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.teyssir h2 {
+  color: var(--Primary-800, #1e2640);
+  text-align: center;
+
+  /* Heading/Heading - 1 */
+  font-family: Inter;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 48px; /* 120% */
+}
+.teyssir p {
+  color: var(--Gray-400, #889099);
+  text-align: center;
+  width: 696px;
+  /* Body/Large/400 */
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 140% */
+}
+.teyssir45 {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.car {
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+  margin: 5px;
+}
+.namee {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+.jenny {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+.hotels h3 {
+  color: var(--Gray-700, #363a3d);
+  font-family: Inter;
+  font-size: 21.414px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 29.98px; /* 140% */
+  width: 370px;
+  margin-top: 45px;
+}
+.hotels h4 {
+  color: var(--Primary-500, #4a60a1);
+
+  /* Body/Large/600 */
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px; /* 140% */
+  margin: 10px 0;
+}
+.jenny h5 {
+  color: var(--Gray-500, #6d737a);
+
+  /* Body/Regular/500 */
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+}
+.jenny h6 {
+  color: var(--Gray-700, #363a3d);
+  text-align: center;
+
+  /* Body/Large/500 */
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px; /* 140% */
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.hotels {
+  border-radius: 6.424px;
+  background: var(--Gray-White, #fff);
+  box-shadow: 0px 25.697px 72.808px 0px rgba(59, 77, 129, 0.08);
+  padding: 30px;
+}
+.imgrec {
+  margin: -30px;
+}
+.ligne {
+  width: 372.608px;
+  height: 1.071px;
+  background: #e7e9eb;
+  margin-bottom: 15px;
+}
+.teyssir68 {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+.boutton {
+  color: var(--Gray-White, #fff);
+  text-align: center;
+
+  /* Body/Regular/500 */
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  display: inline-flex;
+  padding: 12px 24px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 4px;
+  background: var(--Primary-500, #4a60a1);
+  cursor: pointer;
+}
+.bouttton {
+  margin-bottom: 80px;
+  margin-top: 20px;
+}
+.finale {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./Rectangle\ 24.png);
+  width: 100%;
+  height: 530px;
+}
+.finale h2 {
+  color: var(--Gray-White, #fff);
+  text-align: center;
+
+  /* Heading/Heading - 1 */
+  font-family: Inter;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 48px; /* 120% */
+}
+.finale p {
+  color: var(--Primary-50, #edeff6);
+  text-align: center;
+  width: 670px;
+  /* Body/Large/400 */
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 140% */
+}
+.finale button {
+  color: var(--Gray-White, #fff);
+  text-align: center;
+
+  /* Body/Regular/500 */
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  background: transparent;
+  border-radius: 4px;
+  border: 1px solid var(--Gray-White, #fff);
+  display: inline-flex;
+  padding: 12px 24px;
+  align-items: flex-start;
+  gap: 10px;
+  margin-top: 35px;
+}

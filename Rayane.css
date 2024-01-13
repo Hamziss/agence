@@ -1,0 +1,147 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Public Sans", sans-serif;
+  @import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@300&display=swap");
+}
+
+header {
+  height: 50px;
+  padding-top: 20px;
+  position: absolute;
+  width: 100vw;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  gap: 25%;
+}
+
+.beta {
+  display: flex;
+  justify-content: end;
+  align-content: center;
+  gap: 30px;
+}
+
+.beta button {
+  border-radius: 4px;
+  border: 1px solid var(--Primary-50, #edeff6);
+  background: transparent;
+  color: #edeff6;
+  width: 130px;
+}
+
+/* FIRST SECTION PART  */
+
+.alpha {
+  background: linear-gradient(
+      0deg,
+      rgba(6, 48, 83, 0.6) 0%,
+      rgba(6, 48, 83, 0.6) 100%
+    ),
+    url("Home.png") no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #edeff6;
+  text-align: center;
+  font-size: xx-large;
+}
+
+.btn button:first-child {
+  clip-path: polygon(
+    0% 0%,
+    100% 0%,
+    100% 75%,
+    75% 75%,
+    75% 100%,
+    50% 75%,
+    0% 75%
+  );
+  height: 50px;
+  position: relative;
+  border-radius: 4px;
+  background: var(--Primary-500, #4a60a1);
+  border: none;
+  color: #cfd3d6;
+}
+.btn button:last-child {
+  color: var(--Primary-400, #6e80b4);
+  border: none;
+}
+
+.btn button {
+  width: 70px;
+  height: 40px;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: 61px;
+  gap: 10px;
+}
+
+.btn span {
+  position: absolute;
+  right: 50%;
+  top: 50%;
+  transform: translate(50%, -78%);
+}
+
+.btn :last-child{
+  border-radius: 4px;
+}
+
+/* sECTION 2  */
+
+.PDG {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  left: 450px;
+  bottom: -69px;
+  gap: 20px;
+  background-color: #edeff6;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.principal {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.texto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.deco {
+  border: 1px solid #cfd3d6;
+  height: 105px;
+}
+
+.texto p {
+  color: #889099;
+}
+
+.PDG button {
+  border-radius: 4px;
+  background: var(--Primary-500, #4a60a1);
+  height: 40px;
+  width: 101px;
+  color: #edeff6;
+  border: none;
+}
